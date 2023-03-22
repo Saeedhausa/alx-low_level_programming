@@ -15,6 +15,7 @@ void print_to_98(int n)
 		{
 			if (i != 98)
 				printf("%d,", i);
+<<<<<<< HEAD
 				else if (i == 98)
 					printf("%d\n", i);
 			}
@@ -28,5 +29,20 @@ void print_to_98(int n)
 			 else if (j == 98)
 				 printf("%d\n", j);
 		 }
+=======
+			else if (i == 98)
+				printf("%d\n", i);
+		}
+	}
+	else if (n >= 98)
+	{
+		for (j = n; j >= 98; j--)
+		{
+			if (j != 98)
+				printf("%d,", j);
+			else if (j == 98)
+				printf("%d\n", j);
+		}
+>>>>>>> e956d80a77c274d314febaaf372ea5a36e5a9acf
 	}
 }
